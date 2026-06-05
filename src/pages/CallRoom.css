@@ -1,0 +1,174 @@
+:root {
+  --bg:       #0a0a0f;
+  --surface:  #13131a;
+  --border:   #1e1e2a;
+  --accent:   #5b8fff;
+  --accent2:  #a78bfa;
+  --text:     #f0f0f5;
+  --muted:    #6b6b80;
+  --danger:   #ff5f6d;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+.call-root {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  color: var(--text);
+  font-family: "DM Sans", sans-serif;
+  overflow: hidden;
+}
+
+/* ── Remote video (fills screen) ──────────────────────────── */
+.remote-video-container {
+  position: absolute;
+  inset: 0;
+  background: #0a0a0f;
+}
+
+.remote-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ── Audio-only background ────────────────────────────────── */
+.audio-call-bg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(circle at 50% 40%, rgba(91,143,255,0.2) 0%, transparent 60%),
+    #0a0a0f;
+}
+
+.audio-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Syne", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  box-shadow: 0 0 60px rgba(91,143,255,0.4);
+  animation: breathe 3s ease infinite;
+  overflow: hidden;
+}
+.audio-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 60px rgba(91,143,255,0.4); }
+  50%      { transform: scale(1.05); box-shadow: 0 0 80px rgba(91,143,255,0.6); }
+}
+
+/* ── Status overlay ───────────────────────────────────────── */
+.call-status-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 24px 24px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent);
+  text-align: center;
+}
+
+.call-peer-name {
+  font-family: "Syne", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.call-status-text {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.8);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Local video PiP ──────────────────────────────────────── */
+.local-video-container {
+  position: absolute;
+  top: 80px;
+  right: 16px;
+  width: 110px;
+  height: 150px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--surface);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+  z-index: 5;
+}
+
+.local-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleX(-1); /* mirror like a selfie cam */
+}
+.local-video.hidden { display: none; }
+
+.camera-off-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+/* ── Controls ─────────────────────────────────────────────── */
+.call-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 32px 24px 48px;
+  background: linear-gradient(to top, rgba(0,0,0,0.6), transparent);
+  z-index: 5;
+}
+
+.call-control-btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 150ms, transform 150ms;
+}
+.call-control-btn:hover { background: rgba(255,255,255,0.25); }
+.call-control-btn:active { transform: scale(0.92); }
+
+.call-control-btn.active {
+  background: #fff;
+  color: #0a0a0f;
+}
+
+.call-control-btn.hangup {
+  background: var(--danger);
+  width: 68px;
+  height: 68px;
+}
+.call-control-btn.hangup:hover { background: #ff4555; }

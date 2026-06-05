@@ -1,0 +1,8 @@
+{
+  "appId": "com.txtt.app",
+  "appName": "TxTt",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": true
+  }
+}

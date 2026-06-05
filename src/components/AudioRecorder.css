@@ -1,0 +1,76 @@
+.audio-recorder {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ── Mic button ───────────────────────────────────────────── */
+.mic-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  color: var(--muted);
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 150ms, color 150ms, border-color 150ms, transform 150ms;
+  touch-action: none;
+  user-select: none;
+}
+
+.mic-btn:hover:not(:disabled) {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.mic-btn.recording {
+  background: #ff5f6d;
+  border-color: #ff5f6d;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 6px rgba(255, 95, 109, 0.2);
+  animation: pulse 1s ease infinite;
+}
+
+.mic-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(255, 95, 109, 0.2); }
+  50%       { box-shadow: 0 0 0 10px rgba(255, 95, 109, 0.05); }
+}
+
+/* ── Recording indicator ──────────────────────────────────── */
+.recording-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  animation: fadeIn 150ms ease both;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.rec-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff5f6d;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.rec-time {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #ff5f6d;
+  min-width: 20px;
+}
+
+.rec-hint {
+  font-size: 0.75rem;
+  color: var(--muted);
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TxTt</string>
+    <string name="title_activity_main">TxTt</string>
+    <string name="package_name">com.txtt.app</string>
+    <string name="custom_url_scheme">com.txtt.app</string>
+</resources>

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin-master.dia",
+    "emit-module-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin-master-emit-module.dia",
+    "swift-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin-master.swiftdeps"
+  },
+  "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/frontend/node_modules/@capacitor/app/ios/Sources/AppPlugin/AppPlugin.swift" : {
+    "const-values" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.swiftconstvalues",
+    "dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.d",
+    "diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.dia",
+    "index-unit-output-path" : "/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.o",
+    "llvm-bc" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.bc",
+    "object" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.o",
+    "swift-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin.swiftdeps",
+    "swiftmodule" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/CapacitorApp.build/Debug-iphoneos/AppPlugin.build/Objects-normal/arm64/AppPlugin~partial.swiftmodule"
+  }
+}

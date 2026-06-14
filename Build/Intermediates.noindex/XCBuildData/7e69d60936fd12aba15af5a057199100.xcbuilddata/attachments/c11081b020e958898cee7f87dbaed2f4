@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/App-master.dia",
+    "emit-module-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/App-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/App-master-emit-module.dia",
+    "swift-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/App-master.swiftdeps"
+  },
+  "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/frontend/ios/App/App/AppDelegate.swift" : {
+    "const-values" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/hollmane.salazarrivero/Documents/GitHub/TxTt-iOS/Build/Intermediates.noindex/App.build/Debug-iphoneos/App.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  }
+}

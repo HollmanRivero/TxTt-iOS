@@ -1,0 +1,74 @@
+﻿============================================================
+TxTt på iPhone — instruks (testing med gratis Apple ID)
+============================================================
+ 
+FORUTSETNINGER
+- Mac med Xcode installert (har du)
+- iPhone + USB-kabel (eller samme Wi-Fi)
+- Apple ID (gratis konto holder for egen telefon)
+ 
+STEG 1 — Kjør scriptet
+Åpne Terminal:
+cd ~/Documents/GitHub/TxTt-Android
+bash build-ios.sh
+Scriptet installerer alt, bygger web-appen, lager ios/-mappen
+og åpner Xcode automatisk.
+ 
+STEG 2 — Logg inn med Apple ID i Xcode (kun første gang)
+Xcode-menyen > Settings > Accounts > "+" > Apple ID > logg inn.
+ 
+STEG 3 — Signering
+1. I venstre panel i Xcode: klikk på "App" (øverste, blått ikon)
+2. Velg fanen "Signing & Capabilities"
+3. Huk av "Automatically manage signing"
+4. Team: velg ditt navn ("Personal Team")
+5. Hvis Bundle Identifier klager: endre "com.txtt.app" til
+noe unikt, f.eks. "no.byggsalazar.txtt.hollman"
+ 
+STEG 4 — Koble til iPhone og kjør
+1. Koble iPhone til Mac-en med kabel
+2. På iPhone: trykk "Stol på denne datamaskinen"
+3. iPhone: Innstillinger > Personvern og sikkerhet >
+Utviklermodus > PÅ (telefonen starter på nytt)
+4. I Xcode: velg din iPhone i enhetslisten øverst
+5. Trykk ▶ (Run). Appen installeres på telefonen.
+6. Første gang: iPhone > Innstillinger > Generelt >
+VPN og enhetsadministrering > stol på din utvikler-profil
+ 
+VIKTIG MED GRATIS APPLE ID
+TxTt på iPhone — instruks (testing med gratis Apple ID)
+============================================================
+ 
+FORUTSETNINGER
+- Mac med Xcode installert (har du)
+- iPhone + USB-kabel (eller samme Wi-Fi)
+- Apple ID (gratis konto holder for egen telefon)
+ 
+STEG 1 — Kjør scriptet
+Åpne Terminal:
+cd ~/Documents/GitHub/TxTt-Android
+bash build-ios.sh
+Scriptet installerer alt, bygger web-appen, lager ios/-mappen
+og åpner Xcode automatisk.
+ 
+STEG 2 — Logg inn med Apple ID i Xcode (kun første gang)
+Xcode-menyen > Settings > Accounts > "+" > Apple ID > logg inn.
+
+- Appen virker i 7 dager, så må du bare trykke ▶ i Xcode
+igjen for å fornye (ta vare på ios/-mappen)
+- Maks 3 apper samtidig per gratis-konto
+ 
+OPPDATERE APPEN SENERE
+cd ~/Documents/GitHub/TxTt-Android
+npm run build && npx cap sync ios
+...og trykk ▶ i Xcode igjen.
+ 
+------------------------------------------------------------
+VALGFRITT: EKTE .IPA-FIL (krever betalt Apple Developer,
+~99 USD/år — trengs IKKE for testing på egen telefon)
+1. Xcode: Product > Archive
+2. Window > Organizer > velg arkivet > "Distribute App"
+3. Velg "Release Testing" (ad hoc) eller "TestFlight"
+4. Følg veiviseren — .ipa havner i mappen du velger
+------------------------------------------------------------
+

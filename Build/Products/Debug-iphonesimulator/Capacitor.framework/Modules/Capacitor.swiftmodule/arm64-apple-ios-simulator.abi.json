@@ -6385,8 +6385,10 @@
             "moduleName": "Capacitor",
             "genericSig": "<τ_0_0 where τ_0_0 : Capacitor.CAPBridgeProtocol>",
             "sugared_genericSig": "<Self where Self : Capacitor.CAPBridgeProtocol>",
+            "deprecated": true,
             "protocolReq": true,
             "declAttributes": [
+              "Available",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -6440,8 +6442,10 @@
             "moduleName": "Capacitor",
             "genericSig": "<τ_0_0 where τ_0_0 : Capacitor.CAPBridgeProtocol>",
             "sugared_genericSig": "<Self where Self : Capacitor.CAPBridgeProtocol>",
+            "deprecated": true,
             "protocolReq": true,
             "declAttributes": [
+              "Available",
               "ObjC"
             ],
             "reqNewWitnessTableEntry": true,
@@ -11834,10 +11838,12 @@
             "usr": "s:9Capacitor0A6BridgeC9tmpWindowSo8UIWindowCSgvp",
             "mangledName": "$s9Capacitor0A6BridgeC9tmpWindowSo8UIWindowCSgvp",
             "moduleName": "Capacitor",
+            "deprecated": true,
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "Available"
             ],
             "hasStorage": true,
             "accessors": [
@@ -11917,8 +11923,12 @@
                 "usr": "s:9Capacitor0A6BridgeC9tmpWindowSo8UIWindowCSgvM",
                 "mangledName": "$s9Capacitor0A6BridgeC9tmpWindowSo8UIWindowCSgvM",
                 "moduleName": "Capacitor",
+                "deprecated": true,
                 "implicit": true,
                 "isOpen": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11940,10 +11950,12 @@
             "mangledName": "$s9Capacitor0A6BridgeC13tmpVCAppeared10Foundation12NotificationVvpZ",
             "moduleName": "Capacitor",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "Available"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -27731,6 +27743,41 @@
           },
           {
             "kind": "Function",
+            "name": "getDouble",
+            "printedName": "getDouble(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Capacitor@objc(cs)PluginConfig(im)getDouble::",
+            "mangledName": "$s9Capacitor12PluginConfigC9getDoubleySdSS_SdtF",
+            "moduleName": "Capacitor",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getArray",
             "printedName": "getArray(_:_:)",
             "children": [
@@ -38575,7 +38622,7 @@
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CAPBridgeProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 4122,
+      "offset": 4290,
       "length": 4,
       "value": "\"OK\""
     },
@@ -38645,98 +38692,98 @@
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 2993,
+      "offset": 3094,
       "length": 27,
       "value": "\"tmpViewControllerAppeared\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 3061,
+      "offset": 3162,
       "length": 26,
       "value": "\"https:\/\/capacitorjs.com\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 3132,
+      "offset": 3233,
       "length": 19,
       "value": "\"\/_capacitor_file_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3308,
       "length": 31,
       "value": "\"\/_capacitor_http_interceptor_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 3472,
+      "offset": 3573,
       "length": 32,
       "value": "\"\/_capacitor_https_interceptor_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 3553,
+      "offset": 3654,
       "length": 3,
       "value": "\"u\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 3595,
+      "offset": 3696,
       "length": 11,
       "value": "\"capacitor\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 4421,
+      "offset": 4522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "Array",
-      "offset": 4519,
+      "offset": 4620,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 4558,
+      "offset": 4659,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 4677,
+      "offset": 4778,
       "length": 8,
       "value": "\"bridge\""
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "Array",
-      "offset": 4765,
+      "offset": 4866,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 7345,
+      "offset": 7446,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/capacitor-swift-pm\/capacitor-swift-pm\/capacitor-checkout\/ios\/Capacitor\/Capacitor\/CapacitorBridge.swift",
       "kind": "StringLiteral",
-      "offset": 26457,
+      "offset": 26558,
       "length": 5,
       "value": "\"log\""
     },

@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/Capacitor-Swift.h</key>
 		<data>
-		RSp0n8K6r0Ez0AxvMRQuBYbp34Y=
+		VAFqwJsJTNQVFl0S3f5dREar7ag=
 		</data>
 		<key>Headers/Capacitor.h</key>
 		<data>
@@ -38,15 +38,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wRL5nEyZtj/fuKkyWI0vPkpzC80=
+		vR/vYcWnGkxJa1cTkRZidSy8Yig=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		37mSALErfLxdO6IpinTFXNeq/ws=
+		K9UeVmmOFKpJ27LhCvzu61uH/NI=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bbrStNhZxE7nfsFzD47yZRXONl4=
+		0ZwDngdBcHSZAwXE2GlBKXqdt1E=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,19 +54,19 @@
 		</data>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bbrStNhZxE7nfsFzD47yZRXONl4=
+		0ZwDngdBcHSZAwXE2GlBKXqdt1E=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TWGnHNf4SrHnxdUNScicJ39IBe0=
+		zZaIkIWkM5ZrGbGCMRusgrb2ncA=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		37mSALErfLxdO6IpinTFXNeq/ws=
+		K9UeVmmOFKpJ27LhCvzu61uH/NI=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		udimhWW5Z/5bq1hWrla80B9pZgU=
+		oAIcPvmtSR2AJvWxCCMi38+I9T0=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		udimhWW5Z/5bq1hWrla80B9pZgU=
+		oAIcPvmtSR2AJvWxCCMi38+I9T0=
 		</data>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Go3BZUiwnYh7IVyujkAmRV9ofkA=
+		xizliCTBmPggOIZZHtvbiyvdwlQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>PrivateHeaders/CAPBridgedJSTypes.h</key>
 		<data>
-		fOG8F1FXIe7AaQm1OrM6OUO+GFA=
+		oS7mm8e+PDPETXaajsxjEr9zVuc=
 		</data>
 		<key>native-bridge.js</key>
 		<data>
-		bWqyCI6wVsCA0hfT2O0M8TcWRjQ=
+		v7hdwpJWMBPBjv6fU2AME6C3ce0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -145,7 +145,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c1YObKBYZ7LMdgDQ9BIo9eUyKmeizieLE9Fd/kGeXmM=
+			pzXwEs9X7R6JDkvhvz2GK5EdDt/bbBTFstEegFFycuQ=
 			</data>
 		</dict>
 		<key>Headers/Capacitor.h</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Wv6C7kojGFWsuP4/ltyTvXeWcW4KECn6wMbIn24Fp4=
+			V4iVzUT99pJj6iwKayLiw/G0reixLkbWECgGxFt4hwY=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ygGpUmgIONzhjbCHnrKKrejIDahLeeT3yEPP9aHFrXE=
+			HwgPwPNyhviPIlJh4s86zIeCKgQ3LeUtMOa1+U4bxfc=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -180,28 +180,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ygGpUmgIONzhjbCHnrKKrejIDahLeeT3yEPP9aHFrXE=
+			HwgPwPNyhviPIlJh4s86zIeCKgQ3LeUtMOa1+U4bxfc=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPZux4hQbOlOPnD8J2HYsQAf2nrNe81KE6XoWavVDkY=
+			EfqdvjxeXC6/9sYQvqKaLZaze/gl9sKA4dL14OFR2JY=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Wv6C7kojGFWsuP4/ltyTvXeWcW4KECn6wMbIn24Fp4=
+			V4iVzUT99pJj6iwKayLiw/G0reixLkbWECgGxFt4hwY=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z51aVDY8hNPZ1mPfH3Mm0DMRvH3GVKFjeHxwIoKRMD0=
+			Qmj83ZHWd4QeWUU6O6qAaga7ZXXOOM4+fc/7uRnLsPo=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -215,14 +215,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z51aVDY8hNPZ1mPfH3Mm0DMRvH3GVKFjeHxwIoKRMD0=
+			Qmj83ZHWd4QeWUU6O6qAaga7ZXXOOM4+fc/7uRnLsPo=
 			</data>
 		</dict>
 		<key>Modules/Capacitor.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J8LUAJo46fiWHv18FzZd7UWgUF2MstPYni1M+GyV+3Q=
+			QBUNw6brqOXVe3MwC8EdMKIX0OlO4NEKA9fVoHJ7acA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -243,14 +243,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZmVpzd69Ne9oUuwvB9CgPrvFMmVY4N5lK3muza6ptQ=
+			+M0uM5EYbnsGfC/ABi1pPgM1QiNZLdwnwEYQUrMsKuM=
 			</data>
 		</dict>
 		<key>native-bridge.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YhvaSHi0bhq+JahRNXI4S3qXqpDywq8UyRu3yHAMkkM=
+			jswpC91PVGBaaFHnMCPUulug5Wqh0+unWWIkJIK4+04=
 			</data>
 		</dict>
 	</dict>

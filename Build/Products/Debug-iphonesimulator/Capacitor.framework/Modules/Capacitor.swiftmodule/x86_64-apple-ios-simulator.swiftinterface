@@ -236,10 +236,12 @@ extension Capacitor.CAPBridgeViewController : Capacitor.CAPBridgeDelegate {
   @objc func registerPluginInstance(_ pluginInstance: Capacitor.CAPPlugin)
   @objc func showAlertWith(title: Swift.String, message: Swift.String, buttonTitle: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc func presentVC(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc @available(*, deprecated, message: "Use self?.bridge?.viewController?.present")
+  func presentVC(_ viewControllerToPresent: UIKit.UIViewController, animated flag: Swift.Bool, completion: (() -> Swift.Void)?)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc func dismissVC(animated flag: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc @available(*, deprecated, message: "Use self?.bridge?.viewController?.dismiss")
+  func dismissVC(animated flag: Swift.Bool, completion: (() -> Swift.Void)?)
   #endif
 }
 extension Capacitor.CAPBridgeProtocol {
@@ -1019,6 +1021,7 @@ extension Foundation.Data {
   #endif
   @objc public func getBoolean(_ configKey: Swift.String, _ defaultValue: Swift.Bool) -> Swift.Bool
   @objc public func getInt(_ configKey: Swift.String, _ defaultValue: Swift.Int) -> Swift.Int
+  @objc public func getDouble(_ configKey: Swift.String, _ defaultValue: Swift.Double) -> Swift.Double
   #if compiler(>=5.3) && $NonescapableTypes
   public func getArray(_ configKey: Swift.String, _ defaultValue: Capacitor.JSArray? = nil) -> Capacitor.JSArray?
   #endif

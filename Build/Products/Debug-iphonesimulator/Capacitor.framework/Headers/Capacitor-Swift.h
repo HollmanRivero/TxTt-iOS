@@ -381,8 +381,8 @@ SWIFT_PROTOCOL("_TtP9Capacitor17CAPBridgeProtocol_")
 - (void)registerPluginType:(SWIFT_METATYPE(CAPPlugin) _Nonnull)pluginType;
 - (void)registerPluginInstance:(CAPPlugin * _Nonnull)pluginInstance;
 - (void)showAlertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message buttonTitle:(NSString * _Nonnull)buttonTitle;
-- (void)presentVC:(UIViewController * _Nonnull)viewControllerToPresent animated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
-- (void)dismissVCWithAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
+- (void)presentVC:(UIViewController * _Nonnull)viewControllerToPresent animated:(BOOL)flag completion:(void (^ _Nullable)(void))completion SWIFT_DEPRECATED_MSG("Use self?.bridge?.viewController?.present");
+- (void)dismissVCWithAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion SWIFT_DEPRECATED_MSG("Use self?.bridge?.viewController?.dismiss");
 @end
 
 @protocol UIViewControllerTransitionCoordinator;
@@ -675,6 +675,7 @@ SWIFT_CLASS("_TtC9Capacitor12PluginConfig")
 - (NSString * _Nullable)getString:(NSString * _Nonnull)configKey :(NSString * _Nullable)defaultValue SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)getBoolean:(NSString * _Nonnull)configKey :(BOOL)defaultValue SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)getInt:(NSString * _Nonnull)configKey :(NSInteger)defaultValue SWIFT_WARN_UNUSED_RESULT;
+- (double)getDouble:(NSString * _Nonnull)configKey :(double)defaultValue SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -1112,8 +1113,8 @@ SWIFT_PROTOCOL("_TtP9Capacitor17CAPBridgeProtocol_")
 - (void)registerPluginType:(SWIFT_METATYPE(CAPPlugin) _Nonnull)pluginType;
 - (void)registerPluginInstance:(CAPPlugin * _Nonnull)pluginInstance;
 - (void)showAlertWithTitle:(NSString * _Nonnull)title message:(NSString * _Nonnull)message buttonTitle:(NSString * _Nonnull)buttonTitle;
-- (void)presentVC:(UIViewController * _Nonnull)viewControllerToPresent animated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
-- (void)dismissVCWithAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
+- (void)presentVC:(UIViewController * _Nonnull)viewControllerToPresent animated:(BOOL)flag completion:(void (^ _Nullable)(void))completion SWIFT_DEPRECATED_MSG("Use self?.bridge?.viewController?.present");
+- (void)dismissVCWithAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion SWIFT_DEPRECATED_MSG("Use self?.bridge?.viewController?.dismiss");
 @end
 
 @protocol UIViewControllerTransitionCoordinator;
@@ -1406,6 +1407,7 @@ SWIFT_CLASS("_TtC9Capacitor12PluginConfig")
 - (NSString * _Nullable)getString:(NSString * _Nonnull)configKey :(NSString * _Nullable)defaultValue SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)getBoolean:(NSString * _Nonnull)configKey :(BOOL)defaultValue SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)getInt:(NSString * _Nonnull)configKey :(NSInteger)defaultValue SWIFT_WARN_UNUSED_RESULT;
+- (double)getDouble:(NSString * _Nonnull)configKey :(double)defaultValue SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isEmpty SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");

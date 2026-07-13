@@ -1,0 +1,36 @@
+/* Sørg for at bilder i chatten ikke blir gigantiske og sprenger oppsettet */
+.messages-list-container img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+}/* Sørg for at hovedcontaineren som holder på hele chattesiden ALDRI strekker seg lenger enn skjermen */
+.chat-room-root, 
+div[class*="chat-room"], 
+div[class*="ChatRoom"] {
+  display: flex;
+  flex-direction: column;
+  height: 100vh !important;    /* Låser høyden til nøyaktig 100% av skjermbilde-høyden */
+  max-height: 100vh !important;
+  overflow: hidden;             /* Hindrer at selve hovedsiden får skrollefelt */
+  position: relative;
+}
+
+/* Dette er området der meldingene og bildene ligger. 
+   Det er KUN dette området som skal ha lov til å skrolle! */
+.messages-container, 
+div[class*="messages"], 
+div[class*="MessageList"] {
+  flex: 1 !important;
+  overflow-y: auto !important;  /* Gir skrollefelt inni meldingslisten når det blir fullt */
+  padding-bottom: 20px;
+}
+
+/* Sørg for at bildene krympes så de ikke dytter ting ut av skjermen */
+.messages-container img,
+div[class*="messages"] img {
+  max-width: 250px !important;
+  max-height: 200px !important;
+  object-fit: cover;
+  border-radius: 8px;
+}

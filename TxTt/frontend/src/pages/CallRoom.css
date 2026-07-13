@@ -1,0 +1,54 @@
+/* Hovedcontaineren for hele chat-skjermen */
+.chat-room-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Låser høyden til nøyaktig skjermstørrelsen */
+  background-color: #121218;
+  overflow: hidden;
+}
+
+/* Området der meldingene og bildene vises */
+.messages-display-area {
+  flex: 1; /* Tar all tilgjengelig plass, men IKKE mer */
+  overflow-y: auto; /* Gir skrollefelt hvis det blir for fullt */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Sørg for at delte bildevedlegg ikke sprenger skjermen */
+.messages-display-area img, 
+.Shared-attachment {
+  max-width: 280px !important;
+  max-height: 200px !important;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Inntastingslinjen helt i bunnen */
+.chat-input-bar-footer {
+  padding: 16px 24px;
+  background-color: #0d0d12;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 80px; /* Låser høyden så det aldri blir for lite */
+  box-sizing: border-box;
+}
+
+/* Selve tekstfeltet inni input-baren */
+.chat-input-bar-footer input,
+.chat-input-bar-footer textarea {
+  flex: 1;
+  height: 48px !important; /* Gir et stort og godt skrivefelt */
+  background-color: #1c1c24 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 24px !important;
+  color: #fff !important;
+  padding: 0 20px !important;
+  font-size: 1rem !important;
+}

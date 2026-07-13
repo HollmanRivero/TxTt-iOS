@@ -1,0 +1,20 @@
+@off
+echo ==================================================
+echo Bygger TxTt for Windows (11 64-bit)...
+echo ==================================================
+
+:: Gå til prosjektmappen
+cd /d "%USERPROFILE%\documents\GitHub\TxTt2.05.10\TxTt\Frontend"
+
+:: Sørg for at alle avhengigheter er installert
+echo Installerer nødvendige pakker...
+call npm install
+
+:: Kjører dist-skriptet som bygger både Vite og EXE
+echo Bygger prosjektet...
+call npm run dist
+
+echo ==================================================
+echo Ferdig! Sjekk mappen 'Frontend/release' for .exe-filen.
+echo ==================================================
+pause

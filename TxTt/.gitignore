@@ -1,0 +1,18 @@
+# Sensitive filer (Miljøvariabler)
+.env
+.env.local
+.env.production
+
+# Tunge eksterne avhengigheter (Laster ikke opp disse!)
+node_modules/
+jspm_packages/
+
+# Autogenererte bygg- og produksjonsmapper
+dist/
+build/
+.next/
+out/
+
+# Systemfiler (Mac / Windows som lager rot)
+.DS_Store
+Thumbs.db

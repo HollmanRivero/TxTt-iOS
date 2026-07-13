@@ -1,4 +1,0 @@
-module AppPlugin {
-header "AppPlugin-Swift.h"
-export *
-}
